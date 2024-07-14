@@ -16,8 +16,12 @@ The HTMX Tab Session Extension is a custom extension for HTMX that generates and
 1. Include the extension script in your HTML file after the HTMX script:
 
    ```html
-   <script src="path/to/htmx.js"></script>
-   <script src="path/to/htmx-tab-session-ext.js"></script>
+   <script src="https://unpkg.com/htmx.org@2.0.1" 
+        integrity="sha384-QWGpdj554B4ETpJJC9z+ZHJcA/i59TyjxEPXiiUgN2WmTyV5OEZWCD6gQhgkdpB/" 
+        crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/gh/finalclass/htmx-tab-session-ext@v1.0.0/htmx-tab-session-ext.js"
+        integrity="sha384-Fpyqve50zQ0UN+7tt8h7QH/yE1OUCrwh3suIinVWsCjSJMCFxym81Eb7PKZySjOi
+        crossorigin="anonymous"></script>
    ```
 
 2. Add the extension to your HTMX configuration:
